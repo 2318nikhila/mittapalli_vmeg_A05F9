@@ -64,9 +64,9 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation her
-if(index > this.getStudents().length || index < 0||student == null  ) 
-throw new IllegalArgumentException();
-		this.getStudents()[index] = student; 
+//if(index > this.getStudents().length || index < 0||student == null  ) 
+//throw new IllegalArgumentException();
+		//this.getStudents()[index] = student; 
 	
 	}
 
